@@ -14,3 +14,10 @@ The tools used are mysql workbench, which is a free license database software
 
 ## 4. The analysis:
 
+### Question 1: Max Laid off
+
+``` SQL
+SELECT max(total_laid_off)
+FROM layoffs_final;
+```
+
