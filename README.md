@@ -16,8 +16,23 @@ The tools used are mysql workbench, which is a free license database software
 
 ### Question 1: Max Laid off
 
+The Maximum number of laid off employees 
+
 ``` SQL
 SELECT max(total_laid_off)
 FROM layoffs_final;
 ```
 The Result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%201.jpg)
+
+### Question 2: Laid off all staff
+
+The Companies that laid off all their staff
+
+``` SQL
+SELECT *
+FROM layoffs_final
+WHERE percentage_laid_off=1;
+```
+The Result can be found [here]
+
+
