@@ -6,5 +6,11 @@ Project is based on number of layoffs across the world in different sectors from
 
 ## 2. Data Used:
 
-The data used is CSV File ,you can download here [csv file](https://github.com/theatallah/Exploratory-Data-Analysis/tree/main/CSV%20Files)
+The data used is CSV File ,you can download here [layoffs.csv](https://github.com/theatallah/Exploratory-Data-Analysis/tree/main/CSV%20Files)
+
+## 3. Tools Used:
+
+The tools used are mysql workbench, which is a free license database software
+
+## 4. The analysis:
 
