@@ -78,6 +78,7 @@ FROM layoffs_final
 GROUP BY stage
 ORDER BY 2 DESC;
 ```
+The result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%207.jpg)
 
 ### QUESTION 8: Rolling Total of layoffs over years
 
@@ -92,6 +93,7 @@ ORDER BY year,month)
 SELECT year,month,total_laid_off,SUM(total_laid_off) OVER (ORDER BY year,month) AS Rolling_total_layoffs
 FROM Rolling_total;
 ```
+The result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%208.jpg)
 
 ### Question 9: Layoffs by year & Company
 
@@ -102,6 +104,7 @@ WHERE total_laid_off IS NOT NULL
 GROUP BY company,year
 ORDER BY total_layoffs DESC;
 ```
+The result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%209.jpg)
 
 ### Question 10 : Rank the layoffs by years and company
 
