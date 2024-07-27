@@ -20,4 +20,4 @@ The tools used are mysql workbench, which is a free license database software
 SELECT max(total_laid_off)
 FROM layoffs_final;
 ```
-
+The Result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%201.jpg)
