@@ -33,6 +33,6 @@ SELECT *
 FROM layoffs_final
 WHERE percentage_laid_off=1;
 ```
-The Result can be found [here]
+The Result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%202.jpg)
 
 
