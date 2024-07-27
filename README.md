@@ -43,6 +43,7 @@ FROM layoffs_final
 GROUP BY company
 ORDER BY 2 DESC;
 ```
+The result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%203.jpg)
 ### Question 4: Layoffs by industry
 
 ```SQL
@@ -51,7 +52,7 @@ FROM layoffs_final
 GROUP BY industry
 ORDER BY total_laid_off DESC;
 ```
-
+The result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%204.jpg)
 ### Question 5: layoffs by countries
 
 ```SQL
@@ -60,7 +61,7 @@ FROM layoffs_final
 GROUP BY country	
 ORDER BY 2 DESC;
 ```
-
+The result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%205.jpg)
 ### Question 6: Layoffs by years
 
 ```SQL
@@ -68,7 +69,7 @@ SELECT YEAR(`date`),sum(total_laid_off)
 FROM layoffs_final
 GROUP BY year(`date`);
 ```
-
+The result can be found [here](https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%206.jpg)
 ### Question 7: Layoffs by company stage
 
 ```SQL
