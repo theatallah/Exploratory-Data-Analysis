@@ -6,5 +6,5 @@ Project is based on number of layoffs across the world in different sectors from
 
 ## 2. Data Used:
 
-The data used is CSV File 
+The data used is CSV File ,you can download here [csv file](//CSV FILES)
 
