@@ -136,3 +136,5 @@ SELECT *
 FROM company_rankings
 WHERE layoffs_rank<=5
 ```
+The result for questions 10 & 11 can be found [here](
+https://github.com/theatallah/Exploratory-Data-Analysis/blob/main/Questions%20snapshots/question%2010%20%26%2011.jpg)
